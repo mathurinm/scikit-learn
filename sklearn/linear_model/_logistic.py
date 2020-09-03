@@ -1524,8 +1524,8 @@ class LogisticRegressionCV(LogisticRegression,
     ----------
     Cs : int or list of floats, default=10
         Each of the values in Cs describes the inverse of regularization
-        strength. If Cs is as an int, then a grid of Cs values are chosen
-        in a logarithmic scale between 1e-4 and 1e4.
+        strength. If Cs is an int, then a grid of Cs values are chosen
+        on a logarithmic scale between 1e-4 and 1e4.
         Like in support vector machines, smaller values specify stronger
         regularization.
 
